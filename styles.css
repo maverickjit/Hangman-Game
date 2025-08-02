@@ -1,0 +1,3 @@
+/* style.css */
+::-webkit-scrollbar { width: 8px; background: #ededed; }
+::-webkit-scrollbar-thumb { background: #c3aed6; border-radius: 8px; }

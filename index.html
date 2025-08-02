@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hangman Game</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-indigo-600 min-h-screen flex items-center justify-center">
+  <div class="bg-white rounded-lg shadow-lg p-8 max-w-lg w-full text-center">
+    <h1 class="text-2xl font-bold mb-6 text-indigo-700">Hangman Game</h1>
+    <div id="hangman-figure" class="mb-6 flex justify-center"></div>
+    <div id="word" class="flex justify-center space-x-2 mb-4 text-3xl font-mono tracking-widest"></div>
+    <div id="keyboard" class="grid grid-cols-9 gap-2 mb-4"></div>
+    <div id="status" class="mb-4 text-lg font-semibold"></div>
+    <button id="resetBtn" class="mt-2 px-4 py-2 bg-indigo-700 text-white rounded shadow hover:bg-indigo-800">Restart Game</button>
+  </div>
+  <script src="hangman.js"></script>
+</body>
+</html>
